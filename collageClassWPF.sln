@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 WinForms Beginning", "02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.5 WinForms Beggining2", "02.5 WinForms Beggining2\02.5 WinForms Beggining2.csproj", "{1EB70D9D-73DC-433C-B2D1-1147949F6612}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Save and Load Dialogs", "03 Save and Load Dialogs\03 Save and Load Dialogs.csproj", "{D80FBF0C-9709-4B54-8967-1FA935E9CFF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Graphics", "04 Graphics\04 Graphics.csproj", "{EBDCB58B-AA7B-4C91-9493-7C41A092A06B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{1EB70D9D-73DC-433C-B2D1-1147949F6612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EB70D9D-73DC-433C-B2D1-1147949F6612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EB70D9D-73DC-433C-B2D1-1147949F6612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80FBF0C-9709-4B54-8967-1FA935E9CFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80FBF0C-9709-4B54-8967-1FA935E9CFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80FBF0C-9709-4B54-8967-1FA935E9CFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80FBF0C-9709-4B54-8967-1FA935E9CFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDCB58B-AA7B-4C91-9493-7C41A092A06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDCB58B-AA7B-4C91-9493-7C41A092A06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDCB58B-AA7B-4C91-9493-7C41A092A06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDCB58B-AA7B-4C91-9493-7C41A092A06B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
