@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Save and Load Dialogs", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Graphics", "04 Graphics\04 Graphics.csproj", "{EBDCB58B-AA7B-4C91-9493-7C41A092A06B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 WPF Beggining", "05 WPF Beggining\05 WPF Beggining.csproj", "{73123B53-DF9D-40C1-AEF9-16AA685CBB34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EBDCB58B-AA7B-4C91-9493-7C41A092A06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBDCB58B-AA7B-4C91-9493-7C41A092A06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBDCB58B-AA7B-4C91-9493-7C41A092A06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73123B53-DF9D-40C1-AEF9-16AA685CBB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73123B53-DF9D-40C1-AEF9-16AA685CBB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73123B53-DF9D-40C1-AEF9-16AA685CBB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73123B53-DF9D-40C1-AEF9-16AA685CBB34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
