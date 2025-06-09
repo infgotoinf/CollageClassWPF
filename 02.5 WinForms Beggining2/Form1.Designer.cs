@@ -44,10 +44,12 @@
             radioButton1 = new RadioButton();
             pictureBox1 = new PictureBox();
             fileSystemWatcher1 = new FileSystemWatcher();
+            pictureBox2 = new PictureBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -177,6 +179,7 @@
             checkBox1.Text = "Not done";
             checkBox1.UseVisualStyleBackColor = true;
             checkBox1.UseWaitCursor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
             // 
             // radioButton2
             // 
@@ -215,11 +218,23 @@
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
             pictureBox1.UseWaitCursor = true;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // fileSystemWatcher1
             // 
             fileSystemWatcher1.EnableRaisingEvents = true;
             fileSystemWatcher1.SynchronizingObject = this;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = Properties.Resources.OIP1;
+            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox2.Location = new Point(-1000, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(807, 455);
+            pictureBox2.TabIndex = 9;
+            pictureBox2.TabStop = false;
+            pictureBox2.UseWaitCursor = true;
             // 
             // Form1
             // 
@@ -229,6 +244,7 @@
             BackgroundImage = Properties.Resources.загрузка__1_;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -242,6 +258,7 @@
             groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -261,5 +278,6 @@
         private FileSystemWatcher fileSystemWatcher1;
         private ListBox listBox1;
         private CheckBox checkBox1;
+        private PictureBox pictureBox2;
     }
 }
