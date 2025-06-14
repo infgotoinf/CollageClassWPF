@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Graphics", "04 Graphics\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 WPF Beggining", "05 WPF Beggining\05 WPF Beggining.csproj", "{73123B53-DF9D-40C1-AEF9-16AA685CBB34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 WPF Commands", "06 WPF Commands\06 WPF Commands.csproj", "{9C93B62F-1CEA-4FF5-878D-072B462E3167}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{73123B53-DF9D-40C1-AEF9-16AA685CBB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73123B53-DF9D-40C1-AEF9-16AA685CBB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73123B53-DF9D-40C1-AEF9-16AA685CBB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C93B62F-1CEA-4FF5-878D-072B462E3167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C93B62F-1CEA-4FF5-878D-072B462E3167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C93B62F-1CEA-4FF5-878D-072B462E3167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C93B62F-1CEA-4FF5-878D-072B462E3167}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
