@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 WPF Beggining", "05 WPF 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 WPF Commands", "06 WPF Commands\06 WPF Commands.csproj", "{9C93B62F-1CEA-4FF5-878D-072B462E3167}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 WPF Graphics", "07 WPF Graphics\07 WPF Graphics.csproj", "{0E4666F9-2E70-40A8-B633-ED32880C0176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.5 Clicker", "03.5 Clicker\03.5 Clicker.csproj", "{93BACF9D-5654-4055-966B-ABBE8C9FCF6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,8 +55,19 @@ Global
 		{9C93B62F-1CEA-4FF5-878D-072B462E3167}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C93B62F-1CEA-4FF5-878D-072B462E3167}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C93B62F-1CEA-4FF5-878D-072B462E3167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E4666F9-2E70-40A8-B633-ED32880C0176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4666F9-2E70-40A8-B633-ED32880C0176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4666F9-2E70-40A8-B633-ED32880C0176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4666F9-2E70-40A8-B633-ED32880C0176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BACF9D-5654-4055-966B-ABBE8C9FCF6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BACF9D-5654-4055-966B-ABBE8C9FCF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BACF9D-5654-4055-966B-ABBE8C9FCF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BACF9D-5654-4055-966B-ABBE8C9FCF6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D0C3178-523E-4DF1-BE30-2074451C5136}
 	EndGlobalSection
 EndGlobal
